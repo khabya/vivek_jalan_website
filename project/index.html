@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <title> Synovest </title>
         <link href="https://fonts.googleapis.com/css?family=Poppins:400,700,900&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Audiowide&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Audiowide&display=swap" rel="stylesheet"> 
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -15,7 +15,9 @@
         <div class="nav-area fixed-top">
             <div class="container">
                 <nav class="navbar navbar-expand-lg navbar-light w-100">
-                    <a class="navbar-brand" href="#">Synovest</a>
+                    <a class="navbar-brand" href="#">
+                        <img src="images/logo.png">
+                    </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" 
                         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -53,10 +55,7 @@
                 <div class="row">
                     <div class="col-md-12 col-xs-12">
                         <div class="slider-text">
-                            <h1> Financial Services </h1>
                             <p> 
-                                <a href="#contact"> Contact </a>
-                                <a href="#services">More Info</a>
                             </p>
                         </div>
                     </div>
@@ -70,23 +69,24 @@
                 <div class="row">
                      <div class="col-md-12 col-sm-12 col-xs-12 text-center">
                          <div class="section-header">
-                             <h2> About Us? </h2>
+                             <br/><br/>
+                             <h1> About Us? </h1>
                          </div>
                      </div>
                 </div>
 
                 <div class="row">
-                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                     <div class="col-xl-2 col-lg-2 col-md-12 col-sm-12 col-xs-12">
                         <div class="about-img wow animated fadeInDown" data-wow-delay="0.2s">
-                            <img src="images/testi/1.jpg" alt="">
+                            <img src="" alt="">
                         </div>
-                    </div>
-                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                    </div> 
+                    <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-xs-12">
                         <div class="item-text">
-                            <p> Passion to be better than yesterday and grow each day drives us. 
-                                Quest to move up the ladder at every stage of functioning has led to set-up of Synovest Capital. 
-                                Here we create synergies by providing innovative solutions to potential and existing entrepreneurs enabling scale-up of their business on one hand, 
-                                and on the other we identify and offer unique opportunities to investors to assume relevant exposure and be a part of a successful entrepreneurial journey. 
+                            <p style="text-align:justify"> Passion to be better than yesterday and grow each day drives us. 
+                                Quest to move up the ladder at every stage of functioning has led to set-up of Synovest Capital.
+                                Here we create synergies by providing innovative solutions to potential and existing entrepreneurs enabling scale-up of their businesses on one hand, 
+                                and on the other we identify and offer unique opportunities to investors to assume relevant exposure and be a part of a successful entrepreneurial journey.<br/><br/>
                                 Besides being duly qualified and experienced in diverse domains viz. general management, strategy, finance, operations and technical we, at Synovest, are a team of first generation entrepreneurs and investors ourselves and thus, very well construe the requirements and gaps on both sides and endeavour to bridge the same. 
                             </p>
                         </div>
@@ -102,18 +102,20 @@
                 <div class="row">
                     <div class="col-md-12 col-sm-12 col-xs-12 text-center">
                         <div class="section-header">
-                            <h2> Services </h2>
+                            <h1> Services </h1>
                         </div>
                     </div>
                 </div>
 
                 <div class="row">
-                    <div class="col-lg-12 col-md-12">
+                    <div class="col-lg-4 col-md-6">
                         <div class="single-service wow animated fadeInDown" data-wow-delay="0.2s">
+                            <img src="images/services/startup.png">
                             <h2> Start-up consulting </h2>
-                            <p> We are a true set-up partners for starts ups. 
+                            <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#startup"> More </button><br/><br/>
+                            <p id ="startup" class = "collapse" style="text-align:justify"> We are a true set-up partners for starts ups. 
                                 We provide 360 degree commercial mentorship and hand-holding 
-                                to our start-ups partners so that their concepts see light of the day in real world. 
+                                to our start-ups partners so that their concepts see light of the day in real world.<br/><br/> 
                                 Right from vision build-up and optimal conceptualization 
                                 to build-up of business plans and business valuations to 
                                 getting the first client and right investors, we assist new age 
@@ -121,10 +123,12 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-lg-12 col-md-12">
+                    <div class="col-lg-4 col-md-6">
                         <div class="single-service wow animated fadeInDown" data-wow-delay="0.4s">
+                            <img src="images/services/growth.jpg" style="height:158px">
                             <h2> Growth/Scale-up Consulting </h2>
-                            <p> Where you are seeking a professional partner to scale up your venture, 
+                            <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#scaleup"> More </button><br/><br/>
+                            <p id="scaleup" class="collapse" style="text-align:justify"> Where you are seeking a professional partner to scale up your venture, 
                                 we shall assist you in creating a road map to achieve your vision and even 
                                 participate in your scale-up journey if the need be e.g. by consummating 
                                 successful commercial tie-ups, assembly of right resources and financial 
@@ -132,38 +136,46 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-lg-12 col-md-12">
+                    <div class="col-lg-4 col-md-6">
                         <div class="single-service wow animated fadeInDown" data-wow-delay="0.6s">
+                            <img src="images/services/management.jpg" style="height:158px">
                             <h2> Investor Platform and Investment Management </h2>
-                            <p> We facilitate unique and diverse investment opportunities to our 
+                            <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#management"> More </button><br/><br/>
+                            <p id="management" class="collapse" style="text-align:justify"> We facilitate unique and diverse investment opportunities to our 
                                 investors on-board. These opportunities are thoroughly screened as 
-                                per their investment strategy and objective. 
+                                per their investment strategy and objective.<br/><br/>
                                 We act as Investment Managers, if the need be, where we represent 
                                 our investors on investee board, as nominees, to supervise investee 
                                 functioning and provide strategic, operational and financial guidance 
                                 to achieve the desired business growth, returns and overall investment objective. </p>
                         </div>
                     </div>
-                    <div class="col-lg-12 col-md-12">
+                    <div class="col-lg-6 col-md-6">
                         <div class="single-service wow animated fadeInDown" data-wow-delay="0.8s">
+                            <img src="images/services/investment.jpg">
                             <h2> Investment </h2>
-                            <p> Synovest does not restrict itself to only advisory services 
+                            <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#investment"> More </button><br/><br/>
+                            <p id="investment" class="collapse" style="text-align:justify"> Synovest does not restrict itself to only advisory services 
                                 but also takes active investment exposure, especially in start-ups.  
                                 Synovest itself or the team in individual capacities may invest in 
                                 opportunities as per their investment objective.  
                             </p>
                         </div>
                     </div>
-                    <div class="col-lg-12 col-md-12">
+                    <div class="col-lg-6 col-md-6">
                         <div class="single-service wow animated fadeInDown" data-wow-delay="1.0s">
+                            <img src="images/services/finance.jpg">
                             <h2> Business & Finance Restructuring </h2>
-                            <p> Backed up successful experience of restructuring and turnaround of international companies and diverse and highly experienced core management team, we provide varied restructuring services with an objective to increase shareholder's value. These services include but not limited to:
-                                    1. Management restructuring 
-                                    2. Operations restructuring
-                                    3. Marketing & product placement course correction
-                                    4. Profit & Loss Account restructuring 
-                                    5. Balance Sheet restructuring (incl. optimal Capital Structuring and Working Capital Management) 
-                            </p>
+                            <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#finance"> More </button><br/><br/>
+                            <p id="finance" class="collapse" style="text-align:justify"> Backed up successful experience of restructuring and turnaround of international 
+                                companies and diverse and highly experienced core management team, we provide 
+                                varied restructuring services with an objective to increase shareholder's value. 
+                                These services include but not limited to:</p>
+                                    <li id="finance" class="collapse" style="text-align:justify"> Management restructuring </li>
+                                    <li id="finance" class="collapse" style="text-align:justify"> Operations restructuring </li>
+                                    <li id="finance" class="collapse" style="text-align:justify"> Marketing & product placement course correction </li>
+                                    <li id="finance" class="collapse" style="text-align:justify"> Profit & Loss Account restructuring </li>
+                                    <li id="finance" class="collapse" style="text-align:justify"> Balance Sheet restructuring (incl. optimal Capital Structuring and Working Capital Management) </li>
                         </div>
                     </div>
                 </div>
@@ -177,24 +189,25 @@
                 <div class="row">
                     <div class="col-md-12 col-sm-12 col-xs-12 text-center">
                         <div class="section-header">
-                            <h2> Who we are? </h2>
+                            <h1> Our Team </h1>
                         </div>
                     </div>
                 </div>
 
                 
                 <div class="row">
-                    <div class="col-lg-12 col-md-12">
+                    <div class="col-lg-6 col-md-6">
                         <div class="single-testi wow animated fadeInDown" data-wow-delay="0.2s">
                             
                             <div class="img-area">
-                                <img src="images/vivek_pic.jpg" alt="">
+                                <img src="images/team/vivek_pic.jpg" alt="">
                             </div>
                             
-                            <h2> Vivek Jalan - Director </h2>
-                            <p> With an MBA - Finance (UK) and overall experience of more than 12 years, 
+                            <h2> Vivek Jalan - Partner </h2>
+                            <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#vivek"> View Profile </button><br/><br/>
+                            <p id="vivek" class="collapse" style="text-align:justify"> With an MBA - Finance (UK) and overall experience of more than 12 years, 
                                 Vivek is a multi-faceted Management and Finance professional having operated in a 
-                                global and multi-cultural environment.
+                                global and multi-cultural environment.<br/><br/>
  
                                 As a member of International Oil & Gas PE Fund house in Middle-East, 
                                 Vivek has been a lead/participant in closure of 4 deals worth USD 130 million 
@@ -203,7 +216,7 @@
                                 globally and at different stages of life-cycle. 
                                 As a founding member of a boutique Investment Banking and Advisory unit in Mumbai, 
                                 he has been actively engaged in private placement for Real Estate sector 
-                                (through PE Fund houses and NBFCs) and Institutional Real Estate Consulting. 
+                                (through PE Fund houses and NBFCs) and Institutional Real Estate Consulting. <br/><br/>
                                     
                                 Vivek last served a global Facility Management MNC (Mumbai) as Asia-Pacific 
                                 Finance Lead in-charge of financial planning, analysis and operations 
@@ -212,15 +225,16 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-lg-12 col-md-12">
+                    <div class="col-lg-6 col-md-6">
                         <div class="single-testi wow animated fadeInDown" data-wow-delay="0.4s">
                             <div class="img-area">
-                                <img src="images/rajanish_pic.jpg" alt="">
+                                <img src="images/team/rajanish_pic.jpg" alt="">
                             </div>
-                            <h2> Rajanish Prabhu - Director </h2>
-                            <p> A Cost Accountant, Rajanish has 25+years of experience in financial 
+                            <h2> Rajanish Prabhu - Partner </h2>
+                            <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#rajanish" color="#ACBA6F"> View Profile </button><br/><br/>
+                            <p id="rajanish" class="collapse" style="text-align:justify"> A Cost Accountant, Rajanish has 25+years of experience in financial 
                                 and business management of start-ups (funded by venture capital and angel investors), 
-                                family run businesses and large corporates.
+                                family run businesses and large corporates.<br/><br/>
  
                                 Rajanish started his career as an Intern with PricewaterhouseCoopers before 
                                 oining the startup ecosystem in diverse sectors like B2B trading, FinTech, 
@@ -229,7 +243,7 @@
                                 Through active engagement in M&A and Restructuring activities, Rajanish has also assisted 
                                 in scale-up and operational/financial re-engineering of these entities. 
                                 Being responsible to the Board of Directors, Rajanish has closely worked with Sales, 
-                                HR, Marketing and Legal functions for optimal reporting.
+                                HR, Marketing and Legal functions for optimal reporting.<br/><br/>
                                      
                                 In his last employee engagement, Rajanish worked with a French MNC for last 13 years 
                                 as Finance and Operations Head covering Corporate Finance and Internal Control, 
@@ -250,7 +264,7 @@
                             <h2> Contact Us </h2>
                             <p> Feel free to contact for your inquiry </p><br/>
                             <h3>Email: yourpartner@synovestcapital.com</h3><br/>
-                            <h4>Address: The Masterpiece, Near Marol Metro Station, Marol Naka, Andheri-East, Mumbai 400059.</h4>
+                            <h4>Address: Synovest Capital LLP, The Masterpiece, Near Marol Metro Station, Marol Naka, Andheri-East, Mumbai 400059.</h4>
                         </div>
                     </div>
                 </div>
@@ -261,7 +275,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <p>&copy;2019<a href="" title=".com">.com</a></p>
+                        <p>&copy;2019<a href="https://synovestcapital.com" title=".com">synovestcapital.com</a></p>
                     </div>
                 </div>
             </div>

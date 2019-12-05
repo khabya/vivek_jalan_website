@@ -21,7 +21,7 @@ html{
 .navbar-nav .nav-link{
     padding-right: 0;
     padding-left: 0;
-    color: #fff !important;
+    color: #ACBA6F !important;
     font-weight: bold;
 }
 .nav-item{
@@ -33,7 +33,7 @@ html{
 /* Slider Area */
 
 .slider-area{
-    /* background: #000; */
+    background-image: url('images/slider/slider.jpg');
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
@@ -45,10 +45,10 @@ html{
     content: '';
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: 120%;
     top: 0;
     left: 0;
-    background: linear-gradient(360deg,#000,transparent);
+    background: linear-gradient(360deg,#fff, transparent);
 }
 .slider-text h1{
     font-size: 45px;
@@ -56,7 +56,7 @@ html{
 }
 .slider-text a{
     padding: 10px 15px;
-    background-color: #2980b9;
+    background-color: #ACBA6F;
     color: #fff;
     display: inline-block;
     margin-top: 25px;
@@ -71,11 +71,30 @@ html{
 
 /* about area */
 
+.about-area{
+    background-image: url('images/about/about.jpeg');
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    color: #000;
+    position: relative;
+}
+
+/*.about-area:before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(180deg,#fff,transparent);
+} */
 .about-img img{
     width: 100%;
 }
 .item-text{
-    padding-left: 15px;
+    padding-left: 10px;
 }
 .about-img{
     padding-right: 15px;
@@ -87,7 +106,7 @@ html{
 /* stats area */
 
 .stats-area{
-    background-image: url('images/3.jpeg');
+    background-image: url('images/slider/.jpg');
     background-attachment: fixed;
     -webkit-background-size: cover;
     background-size: cover;
@@ -125,6 +144,12 @@ html{
 .services-area{
     text-align: center;
 }
+
+.services-area img{
+    width: 50%;
+    height: 100%;
+}
+
 .single-service{
     border: 1px solid #ddd;
     padding: 30px 20px;
@@ -140,6 +165,10 @@ html{
     background: #262626;
     color: #fff;
     transition: .6s;
+}
+.services-area button {
+    background: #ACBA6F;
+    border: 0px;
 }
 
 /* Award Area */
@@ -196,7 +225,7 @@ html{
 .testimonial-area {
     position: relative;
     /* background-image: url(images/2.jpeg); */
-    background: #000;
+    background: #262626;
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
@@ -219,7 +248,7 @@ html{
     padding: 15px 40px;
 }
 .single-testi h2{
-    font-family: 'Audiowide', cursive;
+    /* font-family: 'Audiowide', cursive; */
     margin: 15px 0;
     font-size: 25px;
 }
@@ -232,9 +261,15 @@ html{
 }
 .img-area img{
     width: 100%;
+    height: 100%;
 }
 .testimonial-area .section-header {
     color: #fff;
+}
+
+.testimonial-area button {
+    background: #ACBA6F;
+    border: 0px;
 }
 
 /* footer area */
