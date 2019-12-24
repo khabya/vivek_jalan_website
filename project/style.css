@@ -296,7 +296,7 @@ html{
         padding-top: 70%;
     }
     .navbar-nav .nav-link{
-        font-size: 50px;
+        font-size: 35px;
     }
 
 
@@ -319,9 +319,26 @@ html{
         font-size: 14px;
     }
 
+    #start-up{
+        width:50%;
+        height:150px;
+    }
 
-    .single-texti{
+    .services-area img{
+        width: 50%;
+        height: 100%;
+    }
+
+    .single-testi {
+        text-align: center;
+        border: 10px solid #fff;
+        color: #fff;
+        padding: 100px 40px;
         margin-bottom: 15px;
+    }
+    .img-area{
+        width: 200px;
+        height: 200px;
     }
 }
 
