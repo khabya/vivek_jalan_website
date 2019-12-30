@@ -149,6 +149,9 @@ html{
     width: 50%;
     height: 100%;
 }
+#start-up {
+    height: 200px;
+}
 
 .single-service{
     border: 1px solid #ddd;
@@ -305,7 +308,7 @@ html{
         margin-bottom: 30px;
     } 
     .about-area .section-header{
-        padding: 50px; 
+        padding: 80px 80px 50px; 
         font-size: 100px;
     }
     .about-area .item-text{
@@ -321,7 +324,7 @@ html{
 
     #start-up{
         width:50%;
-        height:150px;
+        height:200px;
     }
 
     .services-area img{
@@ -331,7 +334,7 @@ html{
 
     .single-testi {
         text-align: center;
-        border: 10px solid #fff;
+        border: 2px solid #fff;
         color: #fff;
         padding: 100px 40px;
         margin-bottom: 15px;
